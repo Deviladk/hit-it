@@ -1,0 +1,14 @@
+.day{
+  --bgmain-color:white;
+  --bg-color:rgb(167, 158, 158);
+  --text-color:black;
+  --span-color:rgb(33, 10, 4);
+  --border-color:rgb(71, 8, 8);
+}
+.night{
+  --bgmain-color:black;
+  --bg-color:rgb(42, 40, 40);
+  --text-color:white;
+  --span-color:rgb(202, 202, 144);
+  --border-color:rgb(71, 8, 8);
+}

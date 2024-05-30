@@ -1,0 +1,80 @@
+*{
+    border:0px;
+    padding: 0px;
+    margin: 0px;
+   color: var(--day-color)
+}
+/* .day{
+    --bgmain-color:white;
+    --bg-color:rgb(167, 158, 158);
+    --text-color:black;
+    --span-color:rgb(33, 10, 4);
+    --border-color:rgb(71, 8, 8);
+    --icon-color:rgb(177, 8, 8);
+    --day-color:black;
+}
+.night{
+    --bgmain-color:black;
+    --bg-color:rgb(42, 40, 40);
+    --text-color:white;
+    --span-color:rgb(202, 202, 144);
+    --border-color:rgb(71, 8, 8);
+    --icon-color:rgb(218, 209, 209);
+    --day-color:blue;
+
+    --modebutton:50%
+} */
+
+.submain{
+    border: 2px solid var(--border-color);
+    height: 8vh;
+    display: flex;
+}
+.icon{
+    width: 50%;
+    height: 100%;
+    background-color: var(--bgmain-color);
+    display: flex;
+    align-items: center;
+    font-size: 200%;
+    padding-left: 1%;
+}
+.navi{
+    width: 50%;
+    background-color: var(--bgmain-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.daymode{
+    background-color:  var(--day-color);
+    height: 40%;
+    width: 15%;
+    border-radius: 20px;
+    padding: 1%;
+    border: 2px solid blue;
+}
+.nightmode{
+    width: 50%;
+    height: 100%;
+    color:rgb(99, 41, 41);
+    background-color: var(--day-color);
+    border-radius:20px ;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: var(--modebutton);
+}
+span{
+    color: var(--span-color);
+}
+.common{
+    font-size: 150%;
+}
+.common:hover{
+    font-size: 200%;
+    cursor: pointer;
+}
