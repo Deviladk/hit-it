@@ -1,0 +1,54 @@
+*{
+    border:0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cartsubmain{
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 45vh;
+    width: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image:linear-gradient(to right,green,yellow);
+    position: relative;
+    isolation: isolate;
+   
+}
+.cartsubmain:hover{
+    background-image: none;
+}
+
+.card{
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 95%;
+    width: 95%;
+    position: relative;
+    background-color:var(--bgmain-color);
+    isolation: isolate;
+}
+.cartsubmain:hover::before{
+    content: "";
+    position:absolute;
+    height: 10%;
+    width: 300%;
+    background-image:linear-gradient(to right,green,yellow) ;
+     top:30%;
+    left:-80%;
+    animation:rotate 4s infinite ease-in-out;
+    z-index: 0;
+   
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

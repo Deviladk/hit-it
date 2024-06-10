@@ -1,0 +1,8 @@
+.middlemain{
+    min-height: 50vh;
+    background-color: var(--bgmain-color);
+    padding: 10%;
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
